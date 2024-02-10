@@ -1,27 +1,42 @@
-# AngularStarter
+# Angular-starter 🚀
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
+This is an empty angular project which was preconfigured by my go-to settings to have an out-of-the-box angular setup when I seek to start a new project.
 
-## Development server
+## How it works? 🔧
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Just clone the the repository and install the dependencies by:
 
-## Code scaffolding
+```bash
+npm i
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+And start develop with:
 
-## Build
+```bash
+npm start
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## What are the benefits? 💰
 
-## Running unit tests
+Preconfigured Eslint with Angular Schematics and my own custom rules.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+npm run lint
+```
 
-## Running end-to-end tests
+Preconfigured Prettier.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+npm run format:check
+```
 
-## Further help
+Jest and Playwright testing frameworks.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+npm run test
+npm run e2e
+```
+
+Github actions for the important tasks on your pull request.
+
+![CI example](docs/ci_example.png)
